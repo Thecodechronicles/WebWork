@@ -232,5 +232,240 @@
     font-size: 25px;
     /* font-weight: 200; */
     font-style: italic;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .windowPane {
+        /* max-width: max-content; */
+        /* font-family: Open Sans, sans-serif; */
+        font-family: "Merriweather Sans", sans-serif;
+    }
+
+    .navBar {
+        background-color: #fef0e8;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 11px;
+        /* position: fixed; */
+        /* margin: 0 155px; */
+    }
+
+    .navbarImg {
+        width: 11%;
+        height: auto;
+    }
+
+    .navBar>h2 {
+        font-size: xx-large;
+    }
+
+    .navBar>div {
+        margin: auto 0;
+    }
+
+    .navBar>div>ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0px
+    }
+
+    .navBar>div>ul>li {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: larger;
+        list-style-type: none;
+        margin: 5px;
+    }
+
+    .navBar>div>ul>li>a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .frontImg {
+        /* margin: 0 55px; */
+        display: contents;
+    }
+
+    .frontImg>img {
+        width: 100%;
+        height: auto;
+        margin: 0 45px 0 0;
+        /* position: fixed; */
+        z-index: -1;
+        /* object-fit: cover; */
+    }
+
+    .firstInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .para {
+        margin: 0 25px;
+        /* padding: 150px 15px 115px 15px; */
+    }
+
+    .para>p {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 35px;
+        /* font-family: "Merriweather Sans", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        /* font-style: normal; */
+        /* text-align: center; */
+        /* font-style: Verdana; */
+        margin: 45px 0;
+        /* max-width: 675px; */
+        padding: 45px 15px;
+    }
+
+    .secondOrderInfoOuter {
+        background-color: #fef0e8;
+        /* margin: 45px; */
+    }
+
+    .secondOrderInfo {
+        /* background-color: #f4efeb; */
+        display: flex;
+        flex-direction: column;
+        /* max-width: 1255px; */
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .secondInfoPane {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: large;
+        display: block;
+        /* max-width: 845px; */
+        margin: 0px;
+        /* margin: auto 125px; */
+    }
+
+    .secondInfoHeading {
+        font-family: "Merriweather", serif;
+        font-weight: 200;
+        font-style: normal;
+        background-color: #486573;
+        color: #ffffff;
+        padding: 15px 0;
+        max-width: 100%;
+        margin: 0px auto;
+    }
+
+    .secondInfoHeading>div {
+        /* max-width: 600px;
+        padding: 25px auto; */
+        max-width: 95%;
+        margin: 0px auto;
+    }
+
+    .secondInfoHeading>div>h2 {
+        margin: 5px 0;
+    }
+
+    .secondInfoHeading>div>h3 {
+        font-weight: 200;
+        margin: 5px 0;
+    }
+
+    .secondInfoPara {
+        padding: 0px 15px;
+    }
+
+    .secondInfoImg>img {
+        margin: 55px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .specializeHeading {
+        background-color: #486573;
+        color: #ffffff;
+    }
+
+    .specializeHeading>h1 {
+        font-family: "Merriweather", serif;
+        /* font-weight: 300; */
+        font-style: normal;
+        text-align: center;
+        max-width: 425px;
+        margin: 0px auto;
+        padding: 45px 25px;
+    }
+
+    .specializePane {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .specializePane>div {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: x-large;
+        text-align: center;
+        color: #486573;
+        border: 2px solid #486573;
+        border-top: 0px;
+        border-right: 0px;
+        /* border-radius: 5px; */
+        max-width: 100%;
+        padding: 55px 95px;
+        margin: 0px;
+    }
+
+    .specializePane>div>p {
+        margin: 15px 0px;
+    }
+
+    .specializePane>div>img {
+        width: 55px;
+        height: auto;
+    }
+
+    #specializeOutermost {
+        border: 2px solid #486573;
+        border-top: 0px;
+        /* border-left: 0px; */
+    }
+
+    .imageQuote {
+        position: relative;
+    }
+
+    .imageQuote>img {
+        height: 85%;
+        width: auto;
+    }
+
+    .quote {
+        color: #ffffff;
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        max-width: 50%;
+        margin: 55px auto;
+        font-family: "Merriweather", serif;
+        font-size: 15px;
+        /* font-weight: 200; */
+        font-style: italic;
+    }
 
 }
