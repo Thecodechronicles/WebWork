@@ -247,14 +247,13 @@
         background-color: #fef0e8;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding: 11px;
+        padding: 5px;
         /* position: fixed; */
         /* margin: 0 155px; */
     }
 
     .navbarImg {
-        width: 11%;
+        width: 41%;
         height: auto;
     }
 
@@ -451,8 +450,9 @@
     }
 
     .imageQuote>img {
-        height: 85%;
+        height: 75%;
         width: auto;
+        max-width: 100%;
     }
 
     .quote {
@@ -467,5 +467,4 @@
         /* font-weight: 200; */
         font-style: italic;
     }
-
 }
