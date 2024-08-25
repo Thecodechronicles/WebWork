@@ -714,7 +714,7 @@
         margin: 55px auto;
         text-align: center;
         font-family: "Merriweather", serif;
-        font-size: 21px;
+        font-size: 18px;
         font-style: italic;
     }
 
@@ -729,13 +729,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 55px;
+        padding: 51px;
     }
 
     .floorIcons>img {
         width: 45px;
         height: auto;
-        padding: 55px 25px;
+        padding: 41px 25px;
     }
 
     .floorBar>div {
