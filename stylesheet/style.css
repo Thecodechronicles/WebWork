@@ -132,7 +132,6 @@
     height: auto;
 }
 
-
 .imgV {
     display: none;
 }
@@ -250,6 +249,10 @@
 .floorTitles {
     font-size: larger;
     font-weight: 700;
+}
+
+.timeZone {
+    font-size: small;
 }
 
 .detailsInfo {
