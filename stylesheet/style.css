@@ -493,17 +493,17 @@
     .floorIcons>img {
         width: 35px;
         height: auto;
-        padding: 21px;
+        padding: 21px 15px 21px 15px;
     }
 
     .timingsPane {
         display: flex;
         flex-direction: row;
-        padding: 15px 45px;
+        padding: 15px 41px;
     }
 
     .detailsPane {
-        padding: 15px 45px 25px 45px;
+        padding: 15px 41px 25px 41px;
     }
 
     .floorBar>div>p {
