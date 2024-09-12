@@ -209,18 +209,26 @@
     font-style: italic;
 }
 
+.floorBarBackPane {
+    background-color: #486573;
+}
+
 .floorBar {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: large;
-    background-color: #486573;
+    /* background-color: #486573; */
     color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 45px 125px 45px 95px;
+    max-width: 85%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .floorIcons>img {
@@ -492,7 +500,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0px;
+        /* padding: 0px; */
+        max-width: 85%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -753,7 +766,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 51px;
+        /* padding: 51px; */
+        max-width: 85%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .floorIcons>img {
